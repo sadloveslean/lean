@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+body{
+  background-color: rgb(204, 203, 254);
+}
+
+.neko-chan{
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+
+header{
+  text-align: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+video{
+  width: 480px;
+}
