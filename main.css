@@ -1,10 +1,11 @@
 *{
-  margin: 0;
+  margin: 0 5px;
   font-family: Helvetica, sans-serif;
+  color: #ee7bd1;
 }
 
 body{
-  background-color: rgb(204, 203, 254);
+  background-color: #0a0a0a;
 }
 
 .neko-chan{
@@ -19,6 +20,29 @@ header{
   margin-top: 10px;
 }
 
+header>h3{
+  color: #fff;
+}
+
 video{
-  width: 100%;
+  width: 30%;
+}
+
+p{
+  color: #fff;
+}
+
+ul{
+  display: inline-block;
+  margin-top: 10px;
+  border: 3px green solid;
+}
+
+ul>li{
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.hidden{
+  display: none;
 }
