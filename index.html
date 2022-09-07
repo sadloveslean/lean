@@ -12,21 +12,9 @@
   <!-- End of OGP tags -->
   <link rel="stylesheet" href="./css/main.css">
   <title>Sadloveslean</title>
+  <script src="./js/audio.js" defer></script>
 </head>
 <body>
-  <script>
-    function play(){
-      var audio = document.getElementById("audio");
-      event.preventDefault();
-      audio.play();
-      audio.addEventListener(
-        "ended",
-        function(){
-          window.location = event.target.href;
-        }
-      );
-    }
-  </script>
   <header>
     <h1>Lean</h1>
     <h3>https://sadloveslean.github.io/lean/</h3>
@@ -39,8 +27,8 @@
   </div>
   <p>Choose language</p>
   <p class="trad">(Escoja un idioma)</p>
-  <a onclick="play()" href="/kodel.html">MX</a>
-  <a onclick="play()" href="/.html">EN</a>
+  <p class="lang" onclick="sitePlay()">MX</a>
+  <p class="lang" onclick="sitePlay()">EN</a>
   <audio id="audio" src="./assets/sd-slip.mp3"></audio>
 </body>
 </html>

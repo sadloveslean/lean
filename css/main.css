@@ -36,3 +36,10 @@ header>h3{
 p{
   color: #fff;
 }
+
+.lang{
+  color: #ee7bd1;
+  text-decoration: underline;
+  cursor: pointer;
+  display: inline-block;
+}
