@@ -1,10 +1,13 @@
 let audio = document.getElementById("audio");
 
-function sitePlay(){
+function sitePlay(lang){
   audio.addEventListener(
     'ended',
     function(){
-      window.open("kodel.html", "_self");
+      if(lang == "es")
+        window.open("kodel.html", "_self");
+      else
+        window.open("makatussin.html", "_self");
     }
   );
   audio.play();
