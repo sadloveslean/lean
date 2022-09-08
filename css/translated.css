@@ -28,6 +28,80 @@ header>h3{
   width: 30%;
 }
 
-p{
+p, .txt{
   color: #fff;
+}
+
+.cv{
+  padding-inline: 0;
+}
+
+.name{
+  color: #ee7bd1;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.important{
+  color: #ee7bd1;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.floats{
+  display: flex;
+  flex: 1;
+  gap: 80px;
+  margin-top: 30px;
+  margin-inline: -5px;
+}
+
+.history{
+  margin-top: 70px;
+  margin-inline: -5px;
+}
+
+.history>div{
+  margin-top: 40px;
+}
+
+.first{
+  margin-bottom: -20px;
+}
+
+.history>.xp>.title{
+  margin-top: 20px;
+}
+
+.title{
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.date{
+  font-weight: normal;
+  letter-spacing: 3px;
+  color: #c4c4c4;
+}
+
+.info{
+  font-size: 1.1rem;
+}
+
+.hab{
+  width: 80%;
+  columns: 2;
+}
+
+li{
+  font-size: 1.1rem;
+  color: #fff;
+  margin-left: -20px;
+  margin-bottom: 20px;
+}
+
+.accomplish{
+  margin-top: -20px;
 }
