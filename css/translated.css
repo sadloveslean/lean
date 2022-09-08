@@ -96,6 +96,7 @@ p, .txt{
 .hab{
   width: 80%;
   columns: 2;
+  column-gap: 80px;
 }
 
 li{
