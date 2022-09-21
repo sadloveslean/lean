@@ -1,4 +1,5 @@
 let audio = document.getElementById("audio");
+audio.playbackRate = 1.15; // Makes audio faster.
 
 function sitePlay(lang){
   audio.addEventListener(
